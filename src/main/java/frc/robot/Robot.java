@@ -7,7 +7,7 @@ package frc.robot;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import frc.robot.hardware.Drivetrain;
+import frc.robot.hardware.drivetrain;
 
 /**
  * The VM is configured to automatically run this class, and to call the functions corresponding to
@@ -24,7 +24,7 @@ public class Robot extends TimedRobot {
   //TODO: Create input devices.
 
   //Create hardware objects
-  private Drivetrain drivetrain = new Drivetrain();
+  private drivetrain drivetrain = new drivetrain();
   //Create Variables(When made in drivetrain.java)
 
 
